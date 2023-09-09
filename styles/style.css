@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section start from here  */
+/* banner section start from here */
+.banner {
+    /* border: 2px solid red; */
+    background-image: url('../images/banner/banner3.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-title {
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 24px;
+    color: #FFF;
+    text-align: end;
+    padding-right: 230px;
+}
+
+.banner-title h1 {
+    max-width: 525px;
+    font-size: 4.1rem;
+    font-weight: 700;
+}
+
+.banner-title p {
+    max-width: 494px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.button-primary {
+    width: 160px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.button-primary a {
+    text-decoration: none;
+    color: #005FAC;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* banner section ended  */
+
+/* <!-- My failures of previous year section start from here  --> */
+.failures-section {
+    max-width: 1140px;
+    margin: 140px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+}
+
+.failures-points {
+    max-width: 416px;
+}
+
+.failures-points-title {
+    color: #151414;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.failures-points-description {
+    color: #444343;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.fail-single-point {
+    color: #444343;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.fa-check {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* <!-- My Plans section started from here --> */
+.my-plans {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 135px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.single-plan h4 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.single-plan p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* <!-- Always keep a positive mindset section start from here  --> */
+.positive-mindset {
+    margin: 0 auto;
+    width: 1140px;
+    height: 300px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    display: flex;
+    align-items: center;
+}
+
+.mindset {
+    padding-left: 64px;
+
+}
+
+.mindset h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* <!-- footer section start from here  --> */
+.footer-bg {
+    height: 577px;
+    background: #151414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.future h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future p {
+    max-width: 485px;
+    margin: 16px 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email-info {
+    margin-top: 8px;
+}
+
+.icons {
+    margin-top: 16px;
+}
+
+.icons img {
+    margin-right: 15px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.subscribe h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.subscribe input {
+    color: #F3F3F3;
+    padding: 21px;
+    max-width: 325px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+}
+
+.subscribe-btn {
+    background: #005FAC;
+}
+
+.subscribe-btn a {
+    color: #FFF;
+}
