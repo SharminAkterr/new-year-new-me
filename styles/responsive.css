@@ -1,0 +1,150 @@
+@media screen and (max-width:768px) {
+
+    /* header section start from here  */
+    /* banner section start from here */
+
+    .banner-title {
+        padding-right: 50px;
+    }
+
+    .banner-title h1 {
+        max-width: 275px;
+        font-size: 2.5rem;
+    }
+
+    .banner-title p {
+        text-align: justify;
+        max-width: 275px;
+    }
+
+    /* banner section ended  */
+
+    /* <!-- My failures of previous year section start from here  --> */
+    .failures-section {
+        margin: 100px auto;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .failures-points {
+        max-width: 275px;
+    }
+
+    .failures-img {
+        width: 70%;
+    }
+
+    .failures-img img {
+        width: 100%
+    }
+
+    /* <!-- My Plans section started from here --> */
+    .my-plans {
+        margin-bottom: 100px;
+    }
+
+    .plans {
+        gap: 60px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    /* <!-- Always keep a positive mindset section start from here  --> */
+    .positive-mindset {
+        background-size: 100% 100%;
+    }
+
+    .mindset {
+        padding: 60px;
+
+    }
+
+    .mindset h2 {
+        font-size: 35px;
+    }
+
+    /* <!-- footer section start from here  --> */
+    .footer-bg {
+        height: 650px;
+        margin-top: 120px;
+    }
+
+    .footer-section {
+        flex-direction: column;
+       align-items: center;
+       gap: 60px;
+       text-align: center;
+    }
+
+    .future>p {
+        max-width: 290px;
+        
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+    /* banner section start from here */
+
+    .banner-title {
+        padding-right: 80px;
+    }
+
+    .banner-title h1 {
+        max-width: 450px;
+        font-size: 3.5rem;
+    }
+
+    .banner-title p {
+        text-align: justify;
+        max-width: 400px;
+    }
+
+    /* banner section ended  */
+
+    /* <!-- My failures of previous year section start from here  --> */
+    .failures-section {
+        margin: 130px 40px;
+        gap: 20px;
+    }
+
+    .failures-points {
+        max-width: 400px;
+    }
+
+    .failures-img {
+        width: 50%;
+    }
+
+    .failures-img img {
+        width: 80%
+    }
+
+    /* <!-- My Plans section started from here --> */
+    .my-plans {
+        margin-bottom: 130px;
+    }
+
+    .plans {
+        margin: 70px 40px 0;
+    }
+
+    /* <!-- Always keep a positive mindset section start from here  --> */
+    .positive-mindset {
+        background-size: 100% 100%;
+    }
+
+    .mindset {
+        padding: 64px;
+
+    }
+
+    .mindset h2 {
+        font-size: 40px;
+    }
+
+    /* <!-- footer section start from here  --> */
+    .footer-bg {
+        padding: 0 50px;
+    }
+}
